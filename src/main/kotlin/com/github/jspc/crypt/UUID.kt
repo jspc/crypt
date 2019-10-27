@@ -1,4 +1,4 @@
-package pw.jspc.ksp.crypt
+package com.github.jspc.crypt
 
 import java.nio.ByteBuffer
 import java.util.*

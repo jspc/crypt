@@ -1,4 +1,4 @@
-package pw.jspc.ksp.crypt
+package com.github.jspc.crypt
 
 import java.nio.ByteBuffer
 import java.security.SecureRandom
@@ -29,7 +29,7 @@ class Crypt {
             init(Cipher.ENCRYPT_MODE, sks, params)
         }
 
-        val enciphered = cipher.doFinal(plaintext.toByteArray());
+        val enciphered = cipher.doFinal(plaintext.toByteArray())
 
         val outputBB = ByteBuffer.allocate(nonce.size + enciphered.size)
         outputBB.put(nonce)

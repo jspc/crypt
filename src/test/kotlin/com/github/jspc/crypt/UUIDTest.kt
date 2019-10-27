@@ -1,4 +1,4 @@
-package pw.jspc.ksp.crypt
+package com.github.jspc.crypt
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
